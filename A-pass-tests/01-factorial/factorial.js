@@ -11,7 +11,7 @@
 function factorial(int) {
   let result = 1;
   if (int == 0) {
-    return 0;
+    return 1;
   } else {
     for (let i = int; i > 0; i--) {
       result *= i;
