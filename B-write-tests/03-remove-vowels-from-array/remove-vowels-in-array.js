@@ -14,4 +14,3 @@ module.exports = removeVowelsFromWords;
     expected output: ["rn", "tz", "Dnl"]
 */
 console.log(removeVowelsFromWords(["Irina", "Etza", "Daniel"]));
-console.log(removeVowels("Samuel"));
