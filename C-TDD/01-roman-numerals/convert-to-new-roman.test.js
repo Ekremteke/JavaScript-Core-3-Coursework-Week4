@@ -1,5 +1,5 @@
 let convertToNewRoman = require("./convert-to-new-roman");
 
 test("returns I if passed 1 as an argument", function () {
-  expect(convertToNewRoman("I")).equalTo(1);
+  expect(convertToNewRoman("I")).toEqual(1);
 });

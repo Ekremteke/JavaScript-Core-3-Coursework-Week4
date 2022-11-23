@@ -1,4 +1,5 @@
 let verifyPasswords = require("./verifyPassword");
-
-expect(verifyPasswords("")).equalTo("Password rejected");
-expect(verifyPasswords("123456aA")).equalTo("verified");
+test("return validate password", function () {
+  expect(verifyPasswords("")).toEqual("Password rejected");
+  expect(verifyPasswords("123456aA")).toEqual("verified");
+});
